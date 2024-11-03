@@ -1,6 +1,15 @@
+/**
+ * author: terrylee
+ * date: 2023-03-24 17:10:00
+ * description: home首页
+ * **/ 
+
+// 导入Image组件
 import Image from "next/image";
 
+// 定义首页组件
 export default function Home() {
+  // 返回包含多个标签的main元素
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
